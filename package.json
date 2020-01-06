@@ -1,0 +1,25 @@
+{
+  "name": "js-data-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "array.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminhuanghuang/js-data-structure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminhuanghuang/js-data-structure/issues"
+  },
+  "homepage": "https://github.com/benjaminhuanghuang/js-data-structure#readme"
+}

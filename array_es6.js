@@ -1,5 +1,6 @@
 //-- ES6 @@iterator
 // In ES6 Array class has a property named @@iterator
+let numbers = ['a', 'b', 'c', 'd', 'e'];
 let iterator = numbers[Symbol.iterator]();
 console.log(iterator.next().value); //1
 console.log(iterator.next().value); //2
@@ -29,7 +30,7 @@ console.log(aValues.next()); // {value: 3, done: false }
 //-- find and findIndex
 //  find() and findIndex() receive a callback function that will search
 //      for avalue that satisfied the condition presented in the tesint function
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 function multipleOf13(element, index, array) {
     return (element % 13 == 0) ? true : false;
 }
