@@ -103,29 +103,6 @@ copyArray = [1, 2, 3, 4, 5, 6];
 // Copy element at position 3, 4 to position starting at 1
 copyArray.copyWithin(1, 3, 5); //[1,4,5,4,5,6]
 
-// Sorting
-function compare(a, b) {
-  if (a < b) {
-    return -1;
-  }
-  if (a > b) {
-    return 1;
-  }
-  // a must be equal to b
-  return 0;
-}
-numbers.sort(compare);
-
-var names = ["Ana", "ana", "john", "John"];
-names.sort(function (a, b) {
-  if (a.toLowerCase() < b.toLowerCase()) {
-    return -1;
-  }
-  if (a.toLowerCase() > b.toLowerCase()) {
-    return 1;
-  }
-  return 0;
-});
 
 //-- Search
 // indexOf returns the index of the first element matches the argumant passed
