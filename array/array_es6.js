@@ -27,16 +27,6 @@ console.log(aValues.next()); // {value: 2, done: false }
 console.log(aValues.next()); // {value: 3, done: false }
 
 
-//-- find and findIndex
-//  find() and findIndex() receive a callback function that will search
-//      for avalue that satisfied the condition presented in the tesint function
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-function multipleOf13(element, index, array) {
-    return (element % 13 == 0) ? true : false;
-}
-console.log(numbers.find(multipleOf13));
-console.log(numbers.findIndex(multipleOf13));
-
 //-- includes() returns true in case the element is found in array
 let numbers2 = [7, 6, 5, 4, 3, 2, 1];
 console.log(numbers2.includes(4, 5));
